@@ -1,0 +1,42 @@
+{
+  "name": "howrareis/helius-php-sdk",
+  "description": "Unofficial Helius PHP SDK",
+  "keywords": [
+    "howrareis",
+    "helius-php-sdk",
+    "helius",
+    "solana",
+    "api",
+    "sdk",
+    "php"
+  ],
+  "homepage": "https://github.com/howrareis/helius-php-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SadMouse",
+      "email": "solsadmouse@pm.me",
+      "homepage": "https://howrare.is",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~8.0",
+    "guzzlehttp/guzzle": "^7.5",
+    "illuminate/http": "~8.0 || ~9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HowRareIs\\HeliusPhpSdk\\": "src"
+    }
+  },
+  "autoload-dev": {
+  },
+  "scripts": {
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
